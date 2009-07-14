@@ -10,19 +10,5 @@ tinyMCE.init({
   theme_advanced_buttons3: ""
 });
 $(function() {
-  $("head").append(
-    "<style type='text/css'> "+
-      "#loading { "+
-        "position: fixed; "+
-        "top: 0px; "+
-        "left: 0px; "+
-        "padding: 2px; "+
-        "color: white; "+
-        "background: red; "+
-      "} "+
-    "</style>"
-  );
-  $("body").append("<div id='loading'>Loading...</div>");
   $(".eip").eip();
-  $("#loading").remove();
 });
