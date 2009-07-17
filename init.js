@@ -1,5 +1,5 @@
 tinyMCE.init({
-  content_css: "style.css",
+  content_css: "style.tiny_mce.css",
   force_root_block: false,
   mode:  "none",
   theme: "advanced",
